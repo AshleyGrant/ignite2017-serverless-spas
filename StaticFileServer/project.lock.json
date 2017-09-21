@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.6": {
+      "MediaTypeMap/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/MimeTypeMap.dll": {}
+        },
+        "runtime": {
+          "lib/net40/MimeTypeMap.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MediaTypeMap/2.1.0": {
+      "sha512": "o0Q01zOu4AkaDDbOQdwCsWuOoXlPGzqyl1j8ABeZJy/xsMm1U96qv/qx2X8sfyZNBY+94OaAPYCHn/1D78/cGg==",
+      "type": "package",
+      "path": "mediatypemap/2.1.0",
+      "files": [
+        "lib/net40/MimeTypeMap.dll",
+        "mediatypemap.2.1.0.nupkg.sha512",
+        "mediatypemap.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [],
+    ".NETFramework,Version=v4.6": [
+      "MediaTypeMap >= 2.1.0"
+    ]
+  },
+  "tools": {},
+  "projectFileToolGroups": {},
+  "packageFolders": {
+    "D:\\home\\data\\Functions\\packages\\nuget": {}
+  }
+}
