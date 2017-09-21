@@ -1,0 +1,20 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "WEBSITE_SLOT_NAME": "Production",
+    "ROUTING_EXTENSION_VERSION": "~0.3",
+    "FUNCTIONS_EXTENSION_VERSION": "~1",
+    "ScmType": "None",
+    "AzureWebJobsSecretStorageType": "disabled",
+    "WEBSITE_AUTH_ENABLED": "False",
+    "REMOTEDEBUGGINGVERSION": "11.0.611103.400",
+    "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=serverlessspas;AccountKey=yPYlDH2IoJg6Sy4T1c9lWwSNvtFpJiwAliL4pKABfeAFBVnaoWsPy5YGY/m9NqgIYYX6csG9sdSiFXeTs7CPnQ==",
+    "WEBSITE_NODE_DEFAULT_VERSION": "6.5.0",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=serverlessspas;AccountKey=yPYlDH2IoJg6Sy4T1c9lWwSNvtFpJiwAliL4pKABfeAFBVnaoWsPy5YGY/m9NqgIYYX6csG9sdSiFXeTs7CPnQ==",
+    "WEBSITE_CONTENTSHARE": "serverless-spas81ec",
+    "WEBSITE_AUTH_AUTO_AAD": "False",
+    "WEBSITE_SITE_NAME": "serverless-spas",
+    "WEBSITE_AUTH_LOGOUT_PATH": "/.auth/logout",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=serverlessspas;AccountKey=yPYlDH2IoJg6Sy4T1c9lWwSNvtFpJiwAliL4pKABfeAFBVnaoWsPy5YGY/m9NqgIYYX6csG9sdSiFXeTs7CPnQ=="
+  }
+}

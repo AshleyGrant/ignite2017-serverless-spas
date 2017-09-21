@@ -1,0 +1,43 @@
+<template>
+  <section class="au-animate col-sm-3">
+      <h2>Electric Vehicle Charging Data</h2>
+      <div class="btn-group">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          ${selectedVehicle ? selectedVehicle.name : 'Choose a vehicle' } <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li repeat.for="vehicle of vehicles">
+            <a href="#" click.delegate="selectVehicle(vehicle)">
+              ${vehicle.name}
+            </a>
+          </li>
+        </ul>
+      </div>
+    <table if.bind="history && history.data" class="table table-striped">
+      <thead>
+        <tr>
+          <th>Plug-In</th>
+          <th>Plug-Out</th>
+          <th>Energy (kWh)</th>
+          <th>Charging Time</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr repeat.for="charge of history.data">
+          <td>
+            ${charge.plugIn.prettyDate}
+          </td>
+          <td>
+            ${charge.plugOut.prettyDate}
+          </td>
+          <td>
+            ${charge.energy}
+          </td>
+          <td>
+            ${charge.chargingTime}
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</template>
