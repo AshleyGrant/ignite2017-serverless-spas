@@ -80,6 +80,15 @@
         ]
       }
     ],
+    "copyFiles": {
+      "node_modules/bootstrap/dist/css/bootstrap.css": "resources/bootstrap/css",
+      "node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.eot": "resources/bootstrap/fonts",
+      "node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.svg": "resources/bootstrap/fonts",
+      "node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf": "resources/bootstrap/fonts",
+      "node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff": "resources/bootstrap/fonts",
+      "node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2": "resources/bootstrap/fonts"
+      
+    },
     "loader": {
       "type": "require",
       "configTarget": "vendor-bundle.js",

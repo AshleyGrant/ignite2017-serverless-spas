@@ -1,6 +1,6 @@
 export default {
   debug: true,
   testing: true,
-  apiBaseUrl: 'https://serverless-spas.azurewebsites.net/api/',
-  apiKey: 'swifzmcDNnOn72x/KWnhGjXHLA0s1n/8al5gBQJhZanOGPuAIuYbIA=='
+  apiBaseUrl: 'https://amg-test4.azurewebsites.net/api/',
+  apiKey: 'jICojqc4B1/FGyfnhJ7KuUUtE5/vkgjbCzIRcZanpfeKo/kLDoFXZQ=='
 };
