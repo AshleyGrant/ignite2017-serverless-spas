@@ -7,7 +7,10 @@
     "url": "???"
   },
   "license": "MIT",
-  "devDependencies": {
+  "scripts": {
+    "postinstall": "au build --env demo"
+  },
+  "dependencies": {
     "aurelia-animator-css": "^1.0.2",
     "aurelia-bootstrapper": "^2.1.1",
     "aurelia-fetch-client": "^1.1.3",
