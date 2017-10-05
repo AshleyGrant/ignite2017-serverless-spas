@@ -25,12 +25,12 @@ define('environment',["require", "exports"], function (require, exports) {
     exports.default = {
         debug: true,
         testing: true,
-        apiBaseUrl: 'https://amg-test4.azurewebsites.net/api/',
-        apiKey: 'jICojqc4B1/FGyfnhJ7KuUUtE5/vkgjbCzIRcZanpfeKo/kLDoFXZQ=='
+        apiBaseUrl: 'https://aurelia-azurefunction.azurewebsites.net/api/',
+        apiKey: 'IWcOPWganEsHtZB8edVTn8iVYNkF1SJC7C7rfHv8a3vnPGCBmEaFRQ== '
     };
 });
 
-//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImVudmlyb25tZW50LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztJQUFBLGtCQUFlO1FBQ2IsS0FBSyxFQUFFLElBQUk7UUFDWCxPQUFPLEVBQUUsSUFBSTtRQUNiLFVBQVUsRUFBRSwwQ0FBMEM7UUFDdEQsTUFBTSxFQUFFLDBEQUEwRDtLQUNuRSxDQUFDIiwiZmlsZSI6ImVudmlyb25tZW50LmpzIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQge1xuICBkZWJ1ZzogdHJ1ZSxcbiAgdGVzdGluZzogdHJ1ZSxcbiAgYXBpQmFzZVVybDogJ2h0dHBzOi8vYW1nLXRlc3Q0LmF6dXJld2Vic2l0ZXMubmV0L2FwaS8nLFxuICBhcGlLZXk6ICdqSUNvanFjNEIxL0ZHeWZuaEo3S3VVVXRFNS92a2dqYkN6SVJjWmFucGZlS28va0xEb0ZYWlE9PSdcbn07XG4iXSwic291cmNlUm9vdCI6InNyYyJ9
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImVudmlyb25tZW50LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztJQUFBLGtCQUFlO1FBQ2IsS0FBSyxFQUFFLElBQUk7UUFDWCxPQUFPLEVBQUUsSUFBSTtRQUNiLFVBQVUsRUFBRSxzREFBc0Q7UUFDbEUsTUFBTSxFQUFFLDJEQUEyRDtLQUNwRSxDQUFDIiwiZmlsZSI6ImVudmlyb25tZW50LmpzIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQge1xuICBkZWJ1ZzogdHJ1ZSxcbiAgdGVzdGluZzogdHJ1ZSxcbiAgYXBpQmFzZVVybDogJ2h0dHBzOi8vYXVyZWxpYS1henVyZWZ1bmN0aW9uLmF6dXJld2Vic2l0ZXMubmV0L2FwaS8nLFxuICBhcGlLZXk6ICdJV2NPUFdnYW5Fc0h0WkI4ZWRWVG44aVZZTmtGMVNKQzdDN3JmSHY4YTN2blBHQ0JtRWFGUlE9PSAnXG59O1xuIl0sInNvdXJjZVJvb3QiOiJzcmMifQ==
 
 define('main',["require", "exports", "aurelia-fetch-client", "./environment"], function (require, exports, aurelia_fetch_client_1, environment_1) {
     "use strict";
